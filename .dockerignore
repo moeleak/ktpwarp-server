@@ -1,0 +1,29 @@
+# Git files
+.git
+.gitignore
+
+# Node modules (安装在容器内)
+node_modules
+
+# Build output (在 builder 阶段生成)
+dist
+
+# Runtime logs and data (if any)
+*.log
+pm2logs/
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Configuration file (应该在运行时挂载，而不是构建进镜像)
+config.ts
+
+# Development environment files
+.env*
+nodemon.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
